@@ -8,6 +8,6 @@ class HomeController {
 
     @GetMapping("/")
     fun test(): String {
-        return "hello";
+        return "DEV-1에서 푸시";
     }
 }
