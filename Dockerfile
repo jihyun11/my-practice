@@ -12,4 +12,4 @@ COPY ${JAR_FILE} app.jar
 
 # Run the jar file
 # 컨테이너가 시작될 때 app.jar가 자동으로 실행되게 해 주기
-ENTRYPOINT ["java","-jar","끔app.jar"]
+ENTRYPOINT ["java","-jar","app.jar"]
